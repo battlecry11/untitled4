@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="24a2c823-8d46-41fe-8d62-0cc472de4e41" name="Default Changelist" comment="">
+    <list default="true" id="24a2c823-8d46-41fe-8d62-0cc472de4e41" name="Default Changelist" comment="style-fix&#10;added right-side content">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/starTrip.css" beforeDir="false" afterPath="$PROJECT_DIR$/starTrip.css" afterDir="false" />
@@ -51,12 +69,37 @@
       <option name="presentableId" value="Default" />
       <updated>1612252151057</updated>
       <workItem from="1612252152309" duration="16767000" />
-      <workItem from="1612351515731" duration="12520000" />
+      <workItem from="1612351515731" duration="22001000" />
+      <workItem from="1612417594953" duration="15699000" />
     </task>
+    <task id="LOCAL-00001" summary="style-fix&#10;added right-side content">
+      <created>1612364792151</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612364792151</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="style-fix&#10;added right-side content" />
+    <option name="LAST_COMMIT_MESSAGE" value="style-fix&#10;added right-side content" />
   </component>
   <component name="WindowStateProjectService">
     <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612252790173">
@@ -75,6 +118,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="499" y="69" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1612270614191" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1612431902029">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612431902029" />
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612364889866">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1612364889866" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1612355342862">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
