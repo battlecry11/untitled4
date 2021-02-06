@@ -1,234 +1,213 @@
-/*.container1 {*/
-/*    position: relative;*/
-
-/*    width: 50%;*/
-
-
-/*}*/
-
-/*.container2 {*/
-/*    width: 50%;*/
-/*   // float: left;*/
-/*    height: 290px;*/
-/*    background-color: black;*/
-/*}*/
+.container1 {
+    position: absolute;
+    top: 780px;
+    left: 100px;
+    width: 670px;
+    height: 350px;
+    /* width:50%; */
+    /* background-color: red; */
+    border-radius: 1px 100px 100px 20px;
+}
 
 .picture1 {
-    position: absolute;
-    z-index: 3;
-    top: 830px;
-    left: 100px;
+    position: relative;
+    top: 50px;
     width: 670px;
     height: 300px;
     border-radius: 0px 100px 30px 20px;
     opacity: 50%;
-
-
 }
 
 .background2 {
     position: absolute;
-    background-color: #4D4D4D;
-    top: 830px;
-    left: 100px;
+    background-color: #4d4d4d;
+    top: 50px;
     width: 670px;
     height: 300px;
     border-radius: 0px 100px 30px 20px;
-    z-index: 2;
-
+    z-index: -1;
 }
 
 .background1 {
-    background-color: #F6F6F6;
-    top: 780px;
-    left: 150px;
+    background-color: #f6f6f6;
+    position: relative;
+    top: -304px;
+
+    left: 50px;
     width: 500px;
     height: 350px;
     background-repeat: no-repeat;
     border-radius: 0px 100px 100px 20px;
-    z-index: 1;
-    position: relative;
+    z-index: -2;
+}
+.dispElems {
+    position: absolute;
+    left: 50px;
+    top: 97px;
+    width: 361px;
+    height: 210px;
 }
 
 .top-left {
     position: absolute;
-    top: 877px;
-    left: 153px;
-    text-align: left;
     font: normal 13px/20px Bahnschrift;
-    z-index: 4;
-    color: #FFFFFF;
+    color: #ffffff;
+}
+.left-arrow {
+    position: absolute;
+    top: 21px;
+    width: 13px;
+    height: 13px;
+    color: #ffffff;
+}
+.right-arrow1 {
+    position: absolute;
+    top: 21px;
+    left: 29px;
+    width: 13px;
+    height: 13px;
+    color: #ffffff;
 }
 
 .center-text {
     position: absolute;
-    top: 964px;
-    left: 153px;
+    top: 87px;
     width: 361px;
-    font: normal 32px Bahnschrift;
-    z-index: 4;
-    color: #FFFFFF;
+    font: normal normal bold 32px/20px Bahnschrift;
+    color: white;
 }
 
 .length {
     position: absolute;
-    top: 1051px;
-    left: 155px;
-    z-index: 4;
+    top: 174px;
     font: normal 13px/20px Bahnschrift;
     opacity: 50%;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .vTours {
     position: absolute;
-    top: 1069px;
-    left: 155px;
-    z-index: 4;
+    top: 192px;
     font: normal 13px/20px Bahnschrift;
-    color: #FFFFFF;
-}
-
-.right-arrow1 {
-    position: absolute;
-    top: 896px;
-    left: 177px;
-    width: 13px;
-    height: 13px;
-    z-index: 4;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .right-arrow2 {
     position: absolute;
-    top: 1069px;
-    left: 226px;
+    top: 192px;
+    left: 76px;
     width: 13px;
     height: 13px;
-    z-index: 4;
-    color: #FFFFFF;
+    color: #ffffff;
 }
-
-.left-arrow {
+.container2 {
     position: absolute;
-    top: 896px;
-    left: 153px;
-    width: 13px;
-    height: 13px;
-    z-index: 4;
-    color: #FFFFFF;
-}
-
-.text1 {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    font: normal normal normal 42px/20px Bahnschrift;
-    color: #4D4D4D;
-
-
-}
-
-.text2 {
-    position: absolute;
-    top: 0px;
-    left: 120px;
-    font: normal normal normal 42px/20px Bahnschrift;
-    color: #FFB300;
-
-}
-
-#t1 {
-    position: absolute;
+    top: 830px;
     left: 840px;
-    top: 829px;
-    width: 121px;
+    width: 980px;
+    height: 300px;
 }
 
 #t2 {
     position: absolute;
     left: 100px;
     top: 1280px;
-/ / width: 403 px;
+    width: 403 px;
     height: 42px;
-
-
+}
+.text1 {
+    position: absolute;
+    width: 269px;
+    height: 42px;
+    font: normal normal normal 42px/20px Bahnschrift;
+    color: #4d4d4d;
+}
+.text1::after {
+    content: "Startrip";
+    left: 120px;
+    font: normal normal normal 42px/20px Bahnschrift;
+    color: #ffb300;
 }
 
 #share-button1 {
     position: absolute;
-    top: 829px;
-    left: 1117px;
-    color: #FFB300;
+    top: 4px;
+    left: 285px;
+    color: #ffb300;
 }
 
 .content {
     position: absolute;
-    color: #BEBEBE;
+    color: #bebebe;
     font-size: 13px;
     font: normal normal normal 13px/20px Bahnschrift;
-    top: 901px;
-    left: 840px;
+    top: 70px;
     width: 980px;
     height: 139px;
+}
+.contentMb {
+    visibility: hidden;
+    position: absolute;
+    color: #bebebe;
+    font-size: 13px;
+    font: normal normal normal 13px/20px Bahnschrift;
+    top: 28px;
+    width: 335px;
+    height: 93px;
+    padding: 20px;
 }
 
 .rects {
     position: absolute;
-    top: 1069px;
-    left: 840px;
-
+    top: 240px;
 }
 
 .rect1 {
     position: absolute;
-    background-color: #F6F6F6;
+    background-color: #f6f6f6;
     width: 200px;
     height: 61px;
     border-radius: 78px;
-
+}
+.view-Review {
+    position: absolute;
+    font: normal normal normal 13px/20px Bahnschrift;
+    color: #4d4d4d;
+    left: 61px;
+    top: 24px;
+}
+.view-Review::before {
+    content: "View-";
 }
 
 .rect2 {
     position: absolute;
-    background-color: #FFB300;
+    background-color: #ffb300;
     left: 210px;
     width: 200px;
     height: 61px;
     border-radius: 78px;
-
-}
-
-.view-Review {
-    position: absolute;
-    font: normal normal normal 13px/20px Bahnschrift;
-    color: #4D4D4D;
-    left: 60px;
-    top: 24px;
 }
 
 .see-fully {
     position: absolute;
     font: normal normal normal 13px/20px Bahnschrift;
-    color: #FFFFFF;
+    color: #ffffff;
     left: 73px;
     top: 24px;
-
 }
 
 .right-arrow3 {
     position: absolute;
     top: 24px;
     left: 163px;
-    color: #FFFFFF;
-
+    color: #ffffff;
 }
 
 .tours {
     position: absolute;
     font: normal normal bold 42px/58px Bahnschrift;
-    color: #FFB300;
-
+    color: #ffb300;
 }
 
 .arndGeo {
@@ -236,24 +215,21 @@
     left: 115px;
     width: 289px;
     font: normal normal normal 42px/58px Bahnschrift;
-    color: #4D4D4D;
-
+    color: #4d4d4d;
 }
 
 .rects2 {
     top: 62px;
     position: absolute;
-
 }
+/* third container*/
 
 .rect3 {
-
     position: absolute;
     width: 76px;
     height: 41px;
-    background-color: #F6F6F6;
+    background-color: #f6f6f6;
     border-radius: 78px;
-
 }
 
 .rect4 {
@@ -261,14 +237,13 @@
     left: 86px;
     width: 125px;
     height: 41px;
-    background-color: #FFB300;
+    background-color: #ffb300;
     border-radius: 78px;
-
 }
 
 .rect5 {
     left: 221px;
-    background-color: #F6F6F6;
+    background-color: #f6f6f6;
     width: 131px;
     height: 41px;
     position: absolute;
@@ -276,148 +251,145 @@
 }
 
 .rect6 {
-
     left: 362px;
     position: absolute;
     width: 132px;
     height: 41px;
-    background-color: #F6F6F6;
+    background-color: #f6f6f6;
     border-radius: 78px;
 }
 
 .all {
     position: absolute;
     top: 14px;
-    color: #BEBEBE;
+    color: #bebebe;
     font: normal normal normal 13px/20px Bahnschrift;
     left: 30px;
-
 }
 
 .frTb {
     position: absolute;
     top: 14px;
-    color: #FFFFFF;
+    color: #ffffff;
     font: normal normal normal 13px/20px Bahnschrift;
     left: 30px;
-
 }
 
 .frKut {
     position: absolute;
     top: 14px;
-    color: #BEBEBE;
+    color: #bebebe;
     font: normal normal normal 13px/20px Bahnschrift;
     left: 30px;
-
 }
 
 .frBtm {
     position: absolute;
     top: 14px;
-    color: #BEBEBE;
+    color: #bebebe;
     font: normal normal normal 13px/20px Bahnschrift;
     left: 30px;
-
 }
 .container {
     position: relative;
     /*top: 0px;*/
     /*left: 0px;*/
-    //width: 100%;
-    float:left;
-}
-.haha{
-    background-color: black;
-    color:white;
+    width: 100%;
+    float: left;
 }
 
-@media (min-width: 100px) and (max-width:380px) {
-    .col-mb-1, .col-mb-2, .col-mb-3, .col-mb-4, .col-mb-5, .col-mb-6, .col-mb-7, .col-mb-8, .col-mb-9, .col-mb-10, .col-mb-11, .col-mb-12 {
+@media (min-width: 100px) and (max-width: 380px) {
+    .container1 {
+        left: 0px;
+        top: 1263px;
+        width: 375px;
+        height: 340px;
+        border-radius: 0px;
+    }
+    .picture1 {
+        top: 0px;
+        width: 375px;
+        height: 340px;
+        border-radius: 0px;
+    }
 
+    .background2 {
+        top: 0px;
+        width: 375px;
+        height: 340px;
+        border-radius: 0px;
+    }
+    .background1 {
+        display: none;
+    }
+    .dispElems {
+        left: 20px;
+        top: 70px;
+        width: 203px;
+        height: 210px;
+    }
+    .center-text {
+        top: 91px;
+        width: 203px;
+        height: 18px;
+        font: normal normal bold 18px/20px Bahnschrift;
+        color: white;
+    }
+    .right-arrow2 {
+        position: absolute;
+        top: 192px;
+        left: 76px;
+        width: 13px;
+        height: 13px;
+        color: #ffffff;
+    }
+    .container2 {
+        top: 1663px;
+        left: 0px;
+        width: 375px;
+        height: 222px;
+    }
+
+    /* change it to absolute*/
+    .text1 {
+        width: 179px;
+        height: 28px;
+        left:20px;
+        font: normal normal normal 28px/20px Bahnschrift;
+    }
+    .text1::after {
+        left: 80px;
+        font: normal normal normal 28px/20px Bahnschrift;
+    }
+    #share-button1 {
+        left: 200px;
+    }
+    .content {
+        visibility: hidden;
+    }
+    .contentMb {
+        visibility: visible;
+    }
+    .rects {
+        top: 161px;
+        left: 20px;
+        width: 125px;
+        height: 61px;
+    }
+
+    .rect1 {
+        width: 125px;
+        height: 61px;
+        border-radius: 78px;
+    }
+
+    .view-Review {
+        left: 12px;
+    }
+    .view-Review::before {
+        visibility: hidden;
+    }
+    .rect2 {
+        left: 135px;
+    }
 }
-    .haha{
-        background-color: red;
-    }
-
-
-
-    .col-mb-1 {
-        width: 8.33%;
-    }
-    .col-mb-2 {
-        width: 16.66%;
-    }
-    .col-mb-3 {
-        width: 25%;
-    }
-    .col-mb-4 {
-        width: 33%;
-    }
-    .col-mb-5 {
-        width: 41.66%;
-    }
-    .col-mb-6 {
-        width: 50%;
-    }
-    .col-mb-7 {
-        width: 58.33%;
-    }
-    .col-mb-8 {
-        width: 66.66%;
-    }
-    .col-mb-9 {
-        width: 74.99%
-    }
-    .col-mb-10 {
-        width: 83.33%;
-    }
-    .col-mb-11 {
-        width: 91.66%;
-    }
-    .col-mb-12 {
-        width: 100%;
-    }
-}
-@media (min-width: 400px) {
-    .col-ds-1, .col-ds-2, .col-ds-3, .col-ds-4, .col-ds-5, .col-ds-6, .col-ds-7, .col-ds-8, .col-ds-9, .col-ds-10, .col-ds-11, .col-ds-12 {
-        float: left;
-    }
-    .col-ds-1 {
-        width: 8.33%;
-    }
-    .col-ds-2 {
-        width: 16.66%;
-    }
-    .col-ds-3 {
-        width: 25%;
-    }
-    .col-ds-4 {
-        width: 33%;
-    }
-    .col-ds-5 {
-        width: 41.66%;
-    }
-    .col-ds-6 {
-        width: 50%;
-    }
-    .col-ds-7 {
-        width: 58.33%;
-    }
-    .col-ds-8 {
-        width: 66.66%;
-    }
-    .col-ds-9 {
-        width: 74.99%
-    }
-    .col-ds-10 {
-        width: 83.33%;
-    }
-    .col-ds-11 {
-        width: 91.66%;
-    }
-    .col-ds-12 {
-        width: 100%;
-    }
-}
-
