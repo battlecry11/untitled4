@@ -1,4 +1,9 @@
+@font-face {
+    src: url(fonts/BAHNSCHRIFT.TTF);
+    font-family: 'Bahnschrift';
+}
 .container1 {
+
     position: absolute;
     top: 780px;
     left: 100px;
@@ -112,7 +117,7 @@
     position: absolute;
     left: 100px;
     top: 1280px;
-    width: 403 px;
+    width: 403px;
     height: 42px;
 }
 .text1 {

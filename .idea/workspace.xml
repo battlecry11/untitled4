@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="24a2c823-8d46-41fe-8d62-0cc472de4e41" name="Default Changelist" comment="incomplete">
+    <list default="true" id="24a2c823-8d46-41fe-8d62-0cc472de4e41" name="Default Changelist" comment="mobile responsive">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/starTrip.css" beforeDir="false" afterPath="$PROJECT_DIR$/starTrip.css" afterDir="false" />
@@ -50,10 +50,15 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/index.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fonts" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\WebstormProjects\untitled4\fonts" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" uri="http://localhost:63342/untitled4/index.html" useBuiltInWebServerPort="true">
@@ -71,6 +76,8 @@
       <workItem from="1612252152309" duration="16767000" />
       <workItem from="1612351515731" duration="22001000" />
       <workItem from="1612417594953" duration="23497000" />
+      <workItem from="1612570480132" duration="281000" />
+      <workItem from="1612778376992" duration="1445000" />
     </task>
     <task id="LOCAL-00001" summary="style-fix&#10;added right-side content">
       <created>1612364792151</created>
@@ -86,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612453910263</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="mobile responsive">
+      <created>1612570738610</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612570738611</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,13 +121,22 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="style-fix&#10;added right-side content" />
     <MESSAGE value="incomplete" />
-    <option name="LAST_COMMIT_MESSAGE" value="incomplete" />
+    <MESSAGE value="mobile responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="mobile responsive" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="309" y="42" key="#Inspections" timestamp="1612779094408">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="309" y="42" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1612779094408" />
     <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612252790173">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1612252790173" />
+    <state x="411" y="166" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612779219058">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="411" y="166" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1612779219058" />
     <state x="92" y="92" width="1182" height="544" key="DiffContextDialog" timestamp="1612454222636">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -130,10 +153,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="499" y="69" key="Github.UntrackedFilesDialog/0.0.1366.728@0.0.1366.728" timestamp="1612270614191" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1612454040401">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1612570761184">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612454040401" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1612570761184" />
     <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612454004864">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
